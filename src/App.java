@@ -1,3 +1,4 @@
+import main.Ejercicio_01_insert.InsertBST;
 import main.Materia.Controlador.ArbolBinario;
 import main.Materia.Modelo.Node;
 
@@ -33,5 +34,18 @@ public class App {
         System.out.println("\nInOrden- Recursivo");
         arbolBinario.inOrdenRecursivo(nodeRoot);
 
+
+
+        InsertBST bst = new InsertBST();
+
+        Node root = null; // Árbol vacio
+        root = bst.insert(root, 5);
+        root = bst.insert(root, 3);
+        root = bst.insert(root, 7);
+        root = bst.insert(root, 2);
+        root = bst.insert(root, 4);
+        root = bst.insert(root, 6);
+        root = bst.insert(root, 8);
+        System.out.println("\nValores en el arbol:");
     }
 }
