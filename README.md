@@ -1,5 +1,6 @@
 ## Getting Started
 Josue Gonzalez
+Dennis Palomeque
 version 2.2.1
 
 metodos insert
