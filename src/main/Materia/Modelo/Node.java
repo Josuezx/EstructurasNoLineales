@@ -4,8 +4,11 @@ public class Node {
     private int value;
     private Node left;
     private Node right;
+<<<<<<< HEAD
     private int height;
 
+=======
+>>>>>>> 310687b7f10b99094f7c9b984143d6457705e5b8
 
     public Node(int value) {
         this.value = value;
@@ -29,6 +32,7 @@ public class Node {
     public void setRight(Node right) {
         this.right = right;
     }
+<<<<<<< HEAD
 
     public int getHeight() {
         return height;
@@ -44,4 +48,6 @@ public class Node {
 
     
    
+=======
+>>>>>>> 310687b7f10b99094f7c9b984143d6457705e5b8
 }
