@@ -1,6 +1,5 @@
 ## Getting Started
 Josue Gonzalez
-version 2.2.1
 
 metodos insert
 Si el nodo raíz (root) es null, crea y retorna un nuevo nodo con el valor dado.
